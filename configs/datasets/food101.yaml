@@ -1,0 +1,12 @@
+DATASET:
+  NAME: "food101"
+
+OPTIM:
+  MAX_EPOCH: 5
+
+TRAINER:
+  SynCLIP:
+    SYN_NAME: "syn_food"
+    WEIGHT: 0.2
+    KLWEIGHT: 0.5
+

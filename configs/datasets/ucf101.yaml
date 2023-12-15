@@ -1,0 +1,11 @@
+DATASET:
+  NAME: "ucf101"
+
+OPTIM:
+  MAX_EPOCH: 10
+
+TRAINER:
+  SynCLIP:
+    SYN_NAME: "syn_ucf"
+    WEIGHT: 0.1
+    KLWEIGHT: 0.5

@@ -1,0 +1,11 @@
+DATASET:
+  NAME: "dtd"
+
+OPTIM:
+  MAX_EPOCH: 10
+
+TRAINER:
+  SynCLIP:
+    SYN_NAME: "syn_dtd"
+    WEIGHT: 0.1
+    KLWEIGHT: 1.0

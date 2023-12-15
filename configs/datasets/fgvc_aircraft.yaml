@@ -1,0 +1,11 @@
+DATASET:
+  NAME: "fgvc"
+
+OPTIM:
+  MAX_EPOCH: 10
+
+TRAINER:
+  SynCLIP:
+    SYN_NAME: "syn_fgvc"
+    WEIGHT: 0.2
+    KLWEIGHT: 2.0

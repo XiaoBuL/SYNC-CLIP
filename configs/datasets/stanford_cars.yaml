@@ -1,0 +1,11 @@
+DATASET:
+  NAME: "stanford_cars"
+
+OPTIM:
+  MAX_EPOCH: 20
+
+TRAINER:
+  SynCLIP:
+    SYN_NAME: "syn_cars"
+    WEIGHT: 0.2
+    KLWEIGHT: 0.5

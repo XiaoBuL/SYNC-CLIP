@@ -1,0 +1,11 @@
+DATASET:
+  NAME: "caltech101"
+
+OPTIM:
+  MAX_EPOCH: 20
+
+TRAINER:
+  SynCLIP:
+    SYN_NAME: "syn_caltech"
+    WEIGHT: 0.2
+    KLWEIGHT: 0.5

@@ -1,0 +1,11 @@
+DATASET:
+  NAME: "oxford_flowers"
+
+OPTIM:
+  MAX_EPOCH: 20
+
+TRAINER:
+  SynCLIP:
+    SYN_NAME: "syn_flowers"
+    WEIGHT: 1.0
+    KLWEIGHT: 0.5

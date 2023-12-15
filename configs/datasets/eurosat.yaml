@@ -1,0 +1,11 @@
+DATASET:
+  NAME: "eurosat"
+
+OPTIM:
+  MAX_EPOCH: 10
+
+TRAINER:
+  SynCLIP:
+    SYN_NAME: "syn_eurosat"
+    WEIGHT: 0.1
+    KLWEIGHT: 3.5

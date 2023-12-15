@@ -1,0 +1,11 @@
+DATASET:
+  NAME: "sun397"
+
+OPTIM:
+  MAX_EPOCH: 5
+
+TRAINER:
+  SynCLIP:
+    SYN_NAME: "syn_sun"
+    WEIGHT: 0.1
+    KLWEIGHT: 0.1

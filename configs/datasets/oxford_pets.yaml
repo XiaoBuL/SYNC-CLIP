@@ -1,0 +1,11 @@
+DATASET:
+  NAME: "oxford_pets"
+
+OPTIM:
+  MAX_EPOCH: 10
+
+TRAINER:
+  SynCLIP:
+    SYN_NAME: "syn_pets"
+    WEIGHT: 0.1
+    KLWEIGHT: 0.5

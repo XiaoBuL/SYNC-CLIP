@@ -1,0 +1,12 @@
+DATASET:
+  NAME: "imagenet"
+
+OPTIM:
+  MAX_EPOCH: 5
+
+TRAINER:
+  SynCLIP:
+    SYN_NAME: "syn_imagenet"
+    WEIGHT: 0.5
+    KLWEIGHT: 0.5
+
