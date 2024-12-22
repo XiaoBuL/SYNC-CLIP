@@ -1,6 +1,5 @@
-# SYNC-CLIP: Synthetic Data Make CLIP Generalize Better in Data-Limited Scenarios
+# Synth-CLIP: Synthetic Data Make CLIP Generalize Better in Data-Limited Scenarios (Neural Networks 2024)
 Official implementation of the paper "[SYNC-CLIP: Synthetic Data Make CLIP Generalize Better in Data-Limited Scenarios](https://arxiv.org/abs/2312.03805)".
-
 
 
 ## Citation
